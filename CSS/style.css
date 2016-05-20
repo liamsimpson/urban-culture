@@ -64,9 +64,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 	color: lightgrey;
+	
 	margin-left:25%;
-	margin-bottom: -5%;
-	margin-top: 120px;
+	margin-top:10%;
+	
 }
 
 /*----------Button Hover Effects----------*/
