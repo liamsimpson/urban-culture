@@ -315,11 +315,10 @@ body {
 
 #board {
 	background-color: rgba(255,255,255,0.6);
-	margin-left: 220px;
-	margin-top: 2.5%;
+	margin-left:16%;
+	margin-top: 1%;
 	width:60%;
 	padding-bottom:5%;
-	padding: 2.5%;
 	box-shadow:0px 0px 10px 5px #252525;
 }
 
@@ -329,11 +328,10 @@ body {
 
 #shopping {
 	background-color: rgba(255,255,255,0.6);
-	margin-left: 220px;
-	margin-top: 2.5%;
+	margin-left:16%;
+	margin-top: 1%;
 	width:60%;
 	padding-bottom:5%;
-	padding: 2.5%;
 	box-shadow:0px 0px 10px 5px #252525;
 }
 
@@ -341,23 +339,22 @@ body {
 
 /*--------------------Unique Mission.html Elements--------------------*/
 
-#mission img 
-{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5%;
+#mission {
+	position:absolute;
+	margin-left: 23%;
+	margin-top:5%;
+}
 
 /*--------------------End Unique Mission.html Elements--------------------*/
 
-/*--------------------Unique support.html Elements--------------------*/
+/*--------------------Unique Section4.html Elements--------------------*/
 
 #support {
 	background-color: rgba(255,255,255,0.6);
-	margin-left: 220px;
-	margin-top: 2.5%;
+	margin-left:16%;
+	margin-top: 1%;
 	width:60%;
 	padding-bottom:5%;
-	padding: 2.5%;
 	box-shadow:0px 0px 10px 5px #252525;
 }
 
@@ -367,11 +364,10 @@ body {
 
 #contact {
 	background-color: rgba(255,255,255,0.6);
-	margin-left: 220px;
-	margin-top: 2.5%;
+	margin-left:16%;
+	margin-top: 1%;
 	width:60%;
 	padding-bottom:5%;
-	padding: 2.5%;
 	box-shadow:0px 0px 10px 5px #252525;
 }
 
@@ -392,11 +388,10 @@ body {
 
 #about {
 	background-color: rgba(255,255,255,0.6);
-	margin-left: 220px;
-	margin-top: 2.5%;
+	margin-left:16%;
+	margin-top: 1%;
 	width:60%;
 	padding-bottom:5%;
-	padding: 2.5%;
 	box-shadow:0px 0px 10px 5px #252525;
 }
 
