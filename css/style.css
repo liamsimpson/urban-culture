@@ -1,0 +1,406 @@
+/*--------------------Global Styling-------------------*/
+
+/*----------Background Elements----------*/
+
+body {
+	background-image:url(../PICTURES/road.jpg);
+	background-color: #212121;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*----------Banner Styling----------*/
+
+#banner {
+	background-color: black;
+	opacity: 0.7;
+	position: fixed;
+	width: 185px;
+	height: 135%;
+	margin-top:-200px;
+	margin-left: -8px;
+	box-shadow: 0px 0px 20px black;
+
+}
+
+#banner_img img {
+	position: absolute;
+	margin-left:10px;
+	margin-top: 230px;
+	width:100%;
+}
+
+#nav {
+	position: fixed;
+	width: 230px;
+	margin-top:350px;
+	margin-left: -45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: lightgrey;
+}
+
+#nav li {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#nav ul li {
+	text-align: right;
+}
+
+#nav ul li a {
+	display: block;
+	padding-right:5%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	text-decoration: none;
+	color:grey;
+}
+
+#contact-info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: lightgrey;
+	
+	margin-left:25%;
+	margin-top:10%;
+	
+}
+
+/*----------Button Hover Effects----------*/
+
+#nav ul li a:hover {
+	background-color: #2f2f2f;
+	color:orange;
+	text-decoration: none;
+}
+
+#nav ul li a:visited 	{
+	text-decoration: none;
+}
+
+/*----------Banner Icon's----------*/
+
+#nav img.home {
+	width:60px;
+	position:fixed;
+	margin-top:-20px;
+	margin-left:-178px;
+}
+
+#nav img.folder {
+	width:55px;
+	position: fixed;
+	margin-left:-175px;
+	margin-top:-17px;
+}
+
+#nav img.rocket {
+	width:40px;
+	position: fixed;
+	margin-left:-168px;
+	margin-top:-10px;
+}
+
+#nav img.question {
+	width:40px;
+	position: fixed;
+	margin-left:-170px;
+	margin-top:-10px;
+}
+
+#nav img.phone {
+	width:40px;
+	position: fixed;
+	margin-left:-170px;
+	margin-top:-10px;
+}
+
+#nav img.fb_top {
+	width: 30px;
+	position: fixed;
+	margin-left:90px;
+	margin-top:-.29%;
+}
+
+#nav img.cart_top {
+	width:30px;
+	position: fixed;
+	margin-left:130px;
+	margin-top:-.3%;
+}
+
+#nav img.insta_top {
+	width: 30px;
+	position: fixed;
+	margin-left:50px;
+	margin-top:-.3%;
+}
+
+#nav img.twitter_top {
+	width: 30px;
+	position: fixed;
+	margin-left:10px;
+	margin-top:-.29%;
+}
+
+#nav img.fb_bottom {
+	width: 30px;
+	position: fixed;
+	margin-left:90px;
+	margin-top:-.29%;
+}
+
+#nav img.cart_bottom {
+	width:30px;
+	position: fixed;
+	margin-left:130px;
+	margin-top:-.3%;
+}
+
+#nav img.insta_bottom {
+	width: 30px;
+	position: fixed;
+	margin-left:50px;
+	margin-top:-.3%;
+}
+
+#nav img.twitter_bottom {
+	width: 30px;
+	position: fixed;
+	margin-left:10px;
+	margin-top:-.29%;
+}
+
+#nav img.faq {
+	width:30px;
+	position: fixed;
+	margin-left:-165px;
+	margin-top:-10px;
+}
+
+#cart img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+}
+
+#facebook img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+}
+
+#instagram img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+}
+
+#twitter img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+}
+
+#nav img.fb_top:hover {
+	opacity: 0;
+}
+
+#nav img.insta_top:hover {
+	opacity: 0;
+}
+
+#nav img.cart_top:hover {
+	opacity: 0;
+}
+
+#nav img.twitter_top:hover {
+	opacity: 0;
+}
+
+/*----------Side Panel Elements----------*/
+
+#side_panel {
+	background-color:white;
+	opacity:0.6;
+	margin-left:61.5%;
+	margin-top:-27.9%;
+	width:20%;
+	padding-bottom: 5%;
+	box-shadow: 0px 0px 10px 5px #252525;
+	position: absolute;
+}
+
+/*--------------------End Global Styling-----------------------*/
+
+/*--------------------Unique index.html Elements--------------------*/
+
+#content img {
+	width:35%;
+	position: absolute;
+	margin-left:38.5%;
+	
+}
+
+#line a {
+	text-decoration: none;
+	margin-left: 19%;
+	margin-top:46%;
+	color:orange;
+	width:75%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#line a:hover {
+	font-weight:bold;
+	color: orange;
+}
+
+/*----------Top-Border Animation----------*/
+
+/*----------Top Border Animation Code Provided by GitHub for non-financial use, Source: 'hover.css / stylesheet'----------*/
+
+.hvr-overline-from-center {
+	display:inline-block;
+	vertical-align:middle;
+	-webkit-transform:translateZ(0);
+	transform:translateZ(0);
+	box-shadow:0 0 1px rgba(0,0,0,0);
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-moz-osx-font-smoothing:grayscale;
+	position:relative;
+	overflow:hidden;
+}
+
+.hvr-overline-from-center:before {
+	content:"";
+	position:absolute;
+	z-index:-1;
+	left:50%;
+	right:50%;
+	top:0;
+	background:orange;
+	height:4px;
+
+	-webkit-transition-property:left,right;
+	transition-property:left,right;
+	-webkit-transition-duration:.3s;
+	transition-duration:.3s;
+	-webkit-transition-timing-function:ease-out;
+	transition-timing-function:ease-out;
+}
+
+.hvr-overline-from-center:active:before,
+.hvr-overline-from-center:focus:before,
+.hvr-overline-from-center:hover:before{left:0;right:0;}
+
+/*----------Top Border Animation Code Provided by GitHub for non-financial use, Source: 'hover.css / stylesheet'----------*/
+
+/*-------------------End Unique Homepage Elements--------------------*/
+
+/*-------------------Unique Product.html Elements--------------------*/
+
+#board {
+	background-color: rgba(255,255,255,0.6);
+	margin-left: 220px;
+	margin-top: 2.5%;
+	width:60%;
+	padding-bottom:5%;
+	padding: 2.5%;
+	box-shadow:0px 0px 10px 5px #252525;
+}
+
+/*------------------End Unique Product.html Elements-------------------*/
+
+/*------------------Unique Shopping.html Elements----------------------*/
+
+#shopping {
+	background-color: rgba(255,255,255,0.6);
+	margin-left: 220px;
+	margin-top: 2.5%;
+	width:60%;
+	padding-bottom:5%;
+	padding: 2.5%;
+	box-shadow:0px 0px 10px 5px #252525;
+}
+
+/*--------------------End Unique Shopping.html Elements--------------------*/
+
+/*--------------------Unique Mission.html Elements--------------------*/
+
+#mission img 
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+	
+}
+
+/*--------------------End Unique Mission.html Elements--------------------*/
+
+/*--------------------Unique support.html Elements--------------------*/
+
+#support {
+	background-color: rgba(255,255,255,0.6);
+	margin-left: 220px;
+	margin-top: 2.5%;
+	width:60%;
+	padding-bottom:5%;
+	padding: 2.5%;
+	box-shadow:0px 0px 10px 5px #252525;
+}
+
+/*-------------------End Unique Section4.html Elements--------------------*/
+
+/*--------------------Unique Section5.html Elements--------------------*/
+
+#contact {
+	background-color: rgba(255,255,255,0.6);
+	margin-left: 220px;
+	margin-top: 2.5%;
+	width:60%;
+	padding-bottom:5%;
+	padding: 2.5%;
+	box-shadow:0px 0px 10px 5px #252525;
+}
+
+#contact h1 {
+	padding-left:5%;
+	padding-top: 3%;
+}
+
+#contact form {
+	margin-left: 5%;
+}
+
+
+
+/*-------------------End Unique Section5.html Elements--------------------*/
+
+/*--------------------Unique About.html Elements--------------------*/
+
+#about {
+	background-color: rgba(255,255,255,0.6);
+	margin-left: 220px;
+	margin-top: 2.5%;
+	width:60%;
+	padding-bottom:5%;
+	padding: 2.5%;
+	box-shadow:0px 0px 10px 5px #252525;
+}
+
+/*-------------------End Unique About.html Elements--------------------*/

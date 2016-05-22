@@ -1,0 +1,103 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<title>Urban Culture | Contact</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		
+		<div id="banner">
+			<div id="banner_img">
+			<a href="index.html">
+			<img src="images/logo.png"></a>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">HOME<img class="home" src="images/home.png" alt="Home"></a></li>
+					<li><a href="boards.html">BOARDS<img class="folder" src="images/folder.png"></a></li>
+					<li><a href="mission.html">MISSION<img class="rocket" src="images/rocket.jpg" alt="Pencil"></a></li>
+					<li><a href="support.html">FAQ & SUPPORT<img class="faq" src="images/faq.png" alt="FAQ"></a></li>
+					<li><a href="contact.html">CONTACT<img class="phone" src="images/phone.png" alt="Phone"></a></li>
+					<li><a href="about.html">ABOUT<img class="question" src="images/question.png" alt="question"></a></li>
+				</ul>
+
+				<div id="contact-info">
+					<div id="cart">
+						<li>
+						<a href="shopping.html">
+						<img class="cart_bottom" src="images/cart-hover.png" alt="Shopping Cart">
+						<img class="cart_top" src="images/cart.png" alt="Shopping Cart"></a></li>
+					</div>
+					<div id="facebook">
+					<li>
+						<a href="http://www.facebook.com.au">
+						<img class="fb_bottom" src="images/fb-hover.png" alt="Facebook">
+						<img class="fb_top" src="images/fb.png" alt="Facebook"></a></li>
+					</div>
+					<div id="instagram">
+					<li>
+						<a href="https://www.instagram.com/urbanculturecoaus/">
+						<img class="insta_bottom" src="images/instagram-hover.png">
+						<img class="insta_top" src="images/instagram.png" alt="Instagram"></a></li>
+					</div>
+					<div id="twitter">
+					<li>
+						<a href="http://www.twitter.com">
+						<img class="twitter_bottom" src="images/twitter-hover.png" alt="Twitter">
+						<img class="twitter_top" src="images/twitter.png" alt="Twitter"></a></li>
+					</div>
+					<br /><br /><p style="text-align:right; margin-right: 10px;">2016 Urban Culture Co. &copy </p>
+					<br />
+					</div>
+			</div>
+		</div>
+		
+		<div id="contact">
+			<div id="contactform" class="ontop">
+			<h1>Contact Us </h1>
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				<div class="row">
+					<label for="firstname"><b>First Name:</b></label><br />
+					<input id="firstname" class="input" name="firstname" type="text" value="" size="30"><br /><br />
+				</div>
+				<div class="row">
+				<label for="lastname"><b>Last Name:</b></label><br />
+					<input id="lastname" class="input" name="lastname" type="text" value="" size="30"><br /><br />
+					</div>
+				<div class="row">
+					<label for=gender"><b>Gender:</b></label><br />
+					<input type="radio" name="gender" value="Male">Male<br />
+					<input type="radio" name="gender" value="Male">Female<br />
+					<input type="radio" name="gender" value="Male">Other<br /><br />
+				</div>
+				
+				<div class="row">
+					<label for="email"><b>Email Address:</b></label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30"><br/><br />
+				</div>
+				<div class="row">
+					<label for="subject"><b>Subject:</b></label><br />
+					<input id="name" class="input" name="Subject" type="text" value="" size="60"><br /><br />
+				</div>
+				<div class="row">
+					<label for="message"><b>Feedback:</b></label><br />
+					<textarea id="message" class="input" name="message" rows="7" cols="60"></textarea><br /><br />
+				</div>
+					<br />
+					<button id="submit_button" type="submit" value="Submit" onclick="submitmessage()">Submit</button>
+			</form>
+			</div>
+		</div>
+		<!--Start of script functions-->
+				<script>
+					function submitmessage() {
+					alert("Message submitted. We'll get back to you as soon as we can.");
+					}
+				</script>
+		<!--End of script functions-->
+	</body>
+	<footer>
+	</footer>
+</html>
