@@ -355,7 +355,7 @@ body {
     width:90%
 }
 
-button {
+.button {
     float: right;
     margin-right: 30%;
     
