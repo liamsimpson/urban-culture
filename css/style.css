@@ -355,6 +355,12 @@ body {
     width:90%
 }
 
+button {
+    float: right;
+    margin-right: 30%;
+    
+}
+
 /*------------------End Unique Product.html Elements-------------------*/
 
 /*------------------Unique Shopping.html Elements----------------------*/
