@@ -325,7 +325,11 @@ body {
 }
 
 #boards-heading{
+	font-family: "Amatic SC";
+	font-size: 82px;
     text-align: center;
+	
+	margin-top: -2%;
 }
 
 #left-div{
@@ -355,11 +359,12 @@ body {
     width:90%
 }
 
-.button {
+.button{
     float: right;
     margin-right: 30%;
-    
 }
+
+
 
 /*------------------End Unique Product.html Elements-------------------*/
 
@@ -401,6 +406,17 @@ body {
 	box-shadow:0px 0px 10px 5px #252525;
 }
 
+#support-heading {
+	font-family: "Amatic SC";
+	font-size: 82px;
+	text-align: center;
+	margin-top: -2%;
+}
+
+#support h2 {
+	font-family: "Amatic SC";
+	font-size: 38px;
+}
 /*-------------------End Unique Section4.html Elements--------------------*/
 
 /*--------------------Unique Contact.html Elements--------------------*/
@@ -408,7 +424,7 @@ body {
 #contact {
 	background-color: rgba(255,255,255,0.6);
 	margin-left: 220px;
-	margin-top: 2.5%;
+	margin-top: 2%;
 	width:60%;
 	padding-bottom:5%;
 	padding: 2.5%;
@@ -416,8 +432,10 @@ body {
 }
 
 #contact h1 {
-	padding-left:5%;
-	padding-top: 3%;
+	font-family: "Amatic SC";
+	font-size: 82px;
+	text-align: center;
+	margin-top: -2.5%;
 }
 
 #contact form {
@@ -438,6 +456,13 @@ body {
 	padding-bottom:5%;
 	padding: 2.5%;
 	box-shadow:0px 0px 10px 5px #252525;
+}
+
+#about-heading {
+	font-family: "Amatic SC";
+	font-size: 82px;
+	text-align: center;
+	margin-top: -2%;
 }
 
 /*-------------------End Unique About.html Elements--------------------*/
