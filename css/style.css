@@ -376,13 +376,18 @@ body {
 #display_boards{
     position: relative;
     width:auto;
-    height: 900px
+    height: 800px
 }
 
 .boardImages {
     position: absolute;
 	margin-left: 10%;
 	margin-top: 5%;
+}
+
+#purchase{
+    margin-left: 43%;
+
 }
 
 /*
