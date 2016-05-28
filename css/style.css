@@ -312,7 +312,7 @@ body {
 
 /*-------------------End Unique Homepage Elements--------------------*/
 
-/*-------------------Unique Product.html Elements--------------------*/
+/*-------------------Unique boards.html Elements--------------------*/
 
 #board{
 	background-color: rgba(255,255,255,0.6);
@@ -369,8 +369,8 @@ body {
 
 
 .accessories{
-    height:350px;
-    width:300px;
+    height:250px;
+    width:250px;
 }
 /*
 #left{
