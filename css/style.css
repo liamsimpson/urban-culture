@@ -372,6 +372,61 @@ body {
     height:250px;
     width:250px;
 }
+
+#board1 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board2 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board3 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board4 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board5 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board6 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board7 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board8 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board9 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+#board10 {
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+
+
+
+
 /*
 #left{
     display:inline-block;
