@@ -182,33 +182,34 @@ body {
 	margin-top:-10px;
 }
 
-#cart img {
+#cart{
 	position: absolute;
-	left: 0;
+	margin-left:-50px;
 	-webkit-transition: opacity .3s ease-in-out;
 	-moz-transition: opacity .3s ease-in-out;
 	-o-transition: opacity .3s ease-in-out;
 }
 
-#facebook img {
+#facebook{
 	position: absolute;
-	left: 0;
+	margin-left: -50px;
+    margin-top: -2px;
 	-webkit-transition: opacity .3s ease-in-out;
 	-moz-transition: opacity .3s ease-in-out;
 	-o-transition: opacity .3s ease-in-out;
 }
 
-#instagram img {
+#instagram{
 	position: absolute;
-	left: 0;
+	margin-left: -50px;
 	-webkit-transition: opacity .3s ease-in-out;
 	-moz-transition: opacity .3s ease-in-out;
 	-o-transition: opacity .3s ease-in-out;
 }
 
-#twitter img {
+#twitter{
 	position: absolute;
-	left: 0;
+	margin-left: -55px;
 	-webkit-transition: opacity .3s ease-in-out;
 	-moz-transition: opacity .3s ease-in-out;
 	-o-transition: opacity .3s ease-in-out;
@@ -391,7 +392,7 @@ body {
 	box-shadow: 0px 0px 5px 2px;
 }
 
-#purchase{
+.purchase{
     margin-left: 43%;
 
 }

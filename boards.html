@@ -1,24 +1,25 @@
-<!DOCTYPE.html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Urban Culture | Boards</title>
+		<title>Urban Culture | About</title>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="js/toggle.js"></script>
+        <script src="js/toggle.js" type="text/javascript"></script>
 	</head>
 
 	<body>
-		
+
 		<div id="banner">
 			<div id="banner_img">
 			<a href="index.html">
-			<img src="images/logo.png"></a>
+			<img src="images/logo.png" alt="logo"></a>
 			</div>
 			<div id="nav">
 				<ul>
 					<li><a href="index.html">HOME<img class="home" src="images/home.png" alt="Home"></a></li>
-					<li><a href="boards.html">BOARDS<img class="folder" src="images/folder.png"></a></li>
+					<li><a href="boards.html">BOARDS<img class="folder" src="images/folder.png" alt="boards"></a></li>
 					<li><a href="mission.html">MISSION<img class="rocket" src="images/rocket.jpg" alt="Pencil"></a></li>
 					<li><a href="support.html">FAQ & SUPPORT<img class="faq" src="images/faq.png" alt="FAQ"></a></li>
 					<li><a href="contact.html">CONTACT<img class="phone" src="images/phone.png" alt="Phone"></a></li>
@@ -26,31 +27,26 @@
 				</ul>
 
 				<div id="contact-info">
-					<div id="cart">
-						<li>
+                        <ul>
+						<li id="cart">
 						<a href="shopping.html">
 						<img class="cart_bottom" src="images/cart-hover.png" alt="Shopping Cart">
 						<img class="cart_top" src="images/cart.png" alt="Shopping Cart"></a></li>
-					</div>
-					<div id="facebook">
-					<li>
+					<li id="facebook">
 						<a href="http://www.facebook.com.au">
 						<img class="fb_bottom" src="images/fb-hover.png" alt="Facebook">
 						<img class="fb_top" src="images/fb.png" alt="Facebook"></a></li>
-					</div>
-					<div id="instagram">
-					<li>
+					<li id="instagram">
 						<a href="https://www.instagram.com/urbanculturecoaus/">
-						<img class="insta_bottom" src="images/instagram-hover.png">
+						<img class="insta_bottom" src="images/instagram-hover.png" alt="insta">
 						<img class="insta_top" src="images/instagram.png" alt="Instagram"></a></li>
-					</div>
-					<div id="twitter">
-					<li>
+					<li id="twitter">
 						<a href="http://www.twitter.com">
 						<img class="twitter_bottom" src="images/twitter-hover.png" alt="Twitter">
 						<img class="twitter_top" src="images/twitter.png" alt="Twitter"></a></li>
-					</div>
-					<br /><br /><p style="text-align:right; margin-right: 10px;">2016 Urban Culture Co. &copy </p>
+                          </ul>  
+				
+					<br /><br /><p style="text-align:right; margin-right: 10px;">2016 Urban Culture Co. &copy; </p>
 					<br />
 					</div>
 			</div>
@@ -64,7 +60,7 @@
 				<tr>
 					<td style="padding-right: 10%; padding-top: 3%;">
                         <h3 style="text-align: center;">Single Motor</h3>
-                        <img src="images/blank_board.png" style="width:250px; margin-right:35px; margin-left: 40px; border: solid black 1px;">
+                        <img src="images/blank_board.png" style="width:250px; margin-right:35px; margin-left: 40px; border: solid black 1px;" alt="board">
 						<p><b>Performance:</b></p>
 						Top Speed: 30 km/h
 						<br/>
@@ -94,11 +90,13 @@
 						<br/>
 						Net Weight: 2.5 KGS
 						<p><strong>$850</strong></p>
-					    <button class="button">Select</button>
+					    <form class="purchase" action="product.html">
+                            <input type="submit" value="Select">
+                        </form>
 					</td>
 					<td>
                         <h3 style="text-align: center;">Dual Motor</h3>
-                        <img src="images/blank_board.png" style="width:250px; margin-right:35px; margin-left: 40px; border: solid black 1px;">
+                        <img src="images/blank_board.png" style="width:250px; margin-right:35px; margin-left: 40px; border: solid black 1px;" alt="board">
 						<p><b>Performance:</b></p>
 						Top Speed: 30 km/h
 						<br/>
@@ -128,51 +126,53 @@
 						<br/>
 						Net Weight: 3.5 KGS
 						<p><strong>$1000</strong></p>
-                        <a src="product.html"><button class="button">Select</button></a>
+                        <form class="purchase" action="product.html">
+                            <input type="submit" value="Select">
+                        </form>
                         
                        
 					</td>
 				</tr>
 			</table>
             <div><h3>STEP 2: Choose a Design</h3>
-                <img id="1" class="images" src="images/Backgrounds/texture-1.jpg">
-                <img id="2" class="images" src="images/Backgrounds/texture-2.jpg">
-                <img id="3" class="images" src="images/Backgrounds/texture-3.jpg">
-                <img id="4" class="images" src="images/Backgrounds/texture-4.jpg">
-                <img id="5" class="images" src="images/Backgrounds/texture-5.jpg">
-                <img id="6" class="images" src="images/Backgrounds/texture-6.jpg">
-                <img id="7" class="images" src="images/Backgrounds/texture-7.jpg">
-                <img id="8" class="images" src="images/Backgrounds/texture-8.jpg">
-                <img id="9" class="images" src="images/Backgrounds/texture-9.jpg">
-                <img id="10" class="images" src="images/Backgrounds/texture-10.jpg">
+                <img id="1" class="images" src="images/Backgrounds/texture-1.jpg" alt="texture">
+                <img id="2" class="images" src="images/Backgrounds/texture-2.jpg" alt="texture">
+                <img id="3" class="images" src="images/Backgrounds/texture-3.jpg" alt="texture">
+                <img id="4" class="images" src="images/Backgrounds/texture-4.jpg" alt="texture">
+                <img id="5" class="images" src="images/Backgrounds/texture-5.jpg" alt="texture">
+                <img id="6" class="images" src="images/Backgrounds/texture-6.jpg" alt="texture">
+                <img id="7" class="images" src="images/Backgrounds/texture-7.jpg" alt="texture">
+                <img id="8" class="images" src="images/Backgrounds/texture-8.jpg" alt="texture">
+                <img id="9" class="images" src="images/Backgrounds/texture-9.jpg" alt="texture">
+                <img id="10" class="images" src="images/Backgrounds/texture-10.jpg" alt="texture">
             </div>
 			
 			<div id="display_boards">
 				
 			
-				<img class="boardImages" id="board1" src="images/boards/board1.png">
+				<img class="boardImages" id="board1" src="images/boards/board1.png" alt="board">
 				
-				<img class="boardImages" id="board2" src="images/boards/board2.png">
+				<img class="boardImages" id="board2" src="images/boards/board2.png" alt="board">
 				
-				<img class="boardImages" id="board3" src="images/boards/board3.png">
+				<img class="boardImages" id="board3" src="images/boards/board3.png" alt="board">
 				
-				<img class="boardImages" id="board4" src="images/boards/board4.png">
+				<img class="boardImages" id="board4" src="images/boards/board4.png" alt="board">
 				
-				<img class="boardImages" id="board5" src="images/boards/board5.png">
+				<img class="boardImages" id="board5" src="images/boards/board5.png" alt="board">
 				
-				<img class="boardImages" id="board6" src="images/boards/board6.png">
+				<img class="boardImages" id="board6" src="images/boards/board6.png" alt="board">
 				
-				<img class="boardImages" id="board7" src="images/boards/board7.png">
+				<img class="boardImages" id="board7" src="images/boards/board7.png" alt="board">
 				
-				<img class="boardImages" id="board8" src="images/boards/board8.png">
+				<img class="boardImages" id="board8" src="images/boards/board8.png" alt="board">
 
-				<img class="boardImages" id="board9" src="images/boards/board9.png">
+				<img class="boardImages" id="board9" src="images/boards/board9.png" alt="board">
 
-				<img class="boardImages" id="board10" src="images/boards/board10.png">
+				<img class="boardImages" id="board10" src="images/boards/board10.png" alt="board">
 				
-				<img class="boardImages" id="cover" src="images/boards/cover.png">
+				<img class="boardImages" id="cover" src="images/boards/cover.png" alt="board">
 			</div>			
-             <form id="purchase" action="product.html">
+             <form class="purchase" action="product.html">
                             <input type="submit" value="Purchase Now!">
                         </form>
 					
@@ -188,16 +188,16 @@
                 <td>
                     <h3>Helmet</h3>
                     
-                    <img class="accessories" src="images/helmet.jpg" style="border: solid black 1px;">
+                    <img class="accessories" src="images/helmet.jpg" style="border: solid black 1px;" alt="helmet">
                 <br/>
 				<b>$79.99 AUD</b>
-                <form id="purchase" action="product.html">
+                <form class="purchase" action="product.html">
                             <input type="submit" value="Purchase Now!">
                         </form>
                 </td>
                 <td>
                     <h3>Knee Pads</h3>
-                    <img class="accessories" src="images/knee-pad.jpg" style="border: solid black 1px;">
+                    <img class="accessories" src="images/knee-pad.jpg" style="border: solid black 1px;" alt="knee pads">
                     <br/>
 					<b>$34.99 AUD</b>
                 <form id="purchase" action="product.html">
@@ -221,17 +221,12 @@
                 <td>$7.45</td>
                 <td>$10.20</td>
                 </tr>
+                <tr>
                 <th>International:</th>
                 <td>$23.72</td>
                 <td>$42.09</td>
+                    </tr>
             </table>
-		</div>
-        
-        
-		
+		</div>   
 	</body>
-
-	<footer>
-		
-	</footer>
 </html>
