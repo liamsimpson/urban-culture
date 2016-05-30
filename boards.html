@@ -91,7 +91,7 @@
 						Net Weight: 2.5 KGS
 						<p><strong>$850</strong></p>
 					    <form class="purchase" action="product.html">
-                            <input type="submit" value="Select">
+                            <input type="button" value="Select" onClick="ShowDiv()">
                         </form>
 					</td>
 					<td>
@@ -127,14 +127,14 @@
 						Net Weight: 3.5 KGS
 						<p><strong>$1000</strong></p>
                         <form class="purchase" action="product.html">
-                            <input type="submit" value="Select">
+                            <input type="button" value="Select" onClick="ShowDiv()">
                         </form>
                         
                        
 					</td>
 				</tr>
 			</table>
-            <div><h3>STEP 2: Choose a Design</h3>
+            <div id="design" style="display:none"><h3>STEP 2: Choose a Design</h3>
                 <img id="1" class="images" src="images/Backgrounds/texture-1.jpg" alt="texture">
                 <img id="2" class="images" src="images/Backgrounds/texture-2.jpg" alt="texture">
                 <img id="3" class="images" src="images/Backgrounds/texture-3.jpg" alt="texture">
@@ -147,7 +147,7 @@
                 <img id="10" class="images" src="images/Backgrounds/texture-10.jpg" alt="texture">
             </div>
 			
-			<div id="display_boards">
+			<div id="display_boards" style="display:none">
 				
 			
 				<img class="boardImages" id="board1" src="images/boards/board1.png" alt="board">
@@ -171,11 +171,12 @@
 				<img class="boardImages" id="board10" src="images/boards/board10.png" alt="board">
 				
 				<img class="boardImages" id="cover" src="images/boards/cover.png" alt="board">
-			</div>			
-             <form class="purchase" action="product.html">
+			
+                <form id="purchase-form" class="purchase" action="product.html">
                             <input type="submit" value="Purchase Now!">
                         </form>
-					
+            </div>			
+        		
             <hr>
             <div><h1>Painting Services</h1>
             <p><b>All Paint Jobs: $100 AUD</b> | <a href="contact.html">Contact us personally for shipping information</a></p>

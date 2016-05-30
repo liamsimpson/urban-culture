@@ -381,7 +381,7 @@ body {
 #display_boards{
     position: relative;
     width:auto;
-    height: 800px
+    height: 800px;
 }
 
 .boardImages {
@@ -400,6 +400,11 @@ body {
 #form h1 {
 	font-family: "Amatic SC";
 	font-size: 62px;
+}
+
+#purchase-form{
+    position: absolute;
+    bottom: 0;
 }
 
 /*------------------End Unique Product.html Elements-------------------*/

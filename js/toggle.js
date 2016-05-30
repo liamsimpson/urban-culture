@@ -39,4 +39,9 @@ window.onload = function(){
 }
 };
 
+function ShowDiv() {
+    document.getElementById("design").style.display = "";
+    document.getElementById("display_boards").style.display = "";
+};
+
 
