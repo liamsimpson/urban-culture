@@ -314,7 +314,7 @@ body {
 
 /*-------------------Unique boards.html Elements--------------------*/
 
-#board, #form{
+#board, #form, #disclaimer{
 	background-color: rgba(255,255,255,0.6);
 	margin-left: 220px;
 	margin-top: 2.5%;
@@ -400,16 +400,6 @@ body {
 	font-family: "Amatic SC";
 	font-size: 62px;
 }
-
-/*
-#left{
-    display:inline-block;
-}
-#right{
-    display:inline-block;
-    float:right;
-}
-*/
 
 /*------------------End Unique Product.html Elements-------------------*/
 
